@@ -92,8 +92,8 @@ namespace InfraCommander
             {
                 if (com.Length > 4)
                 {
-                    Console.WriteLine(com.Remove(6, 1));
-                    StrCom = com.Remove(6, 1);
+                    Console.WriteLine(com.Remove(com.Length - 1, 1));
+                    StrCom = com.Remove(com.Length - 1, 1);
 
                     switch (StrCom)
                     {
